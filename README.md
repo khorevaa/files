@@ -1,4 +1,3 @@
-# files
 
 [![Stars](https://img.shields.io/github/stars/khorevaa/files.svg?label=Github%20%E2%98%85&a)](https://github.com/khorevaa/files/stargazers)
 [![Release](https://img.shields.io/github/tag/khorevaa/files.svg?label=Last%20release&a)](https://github.com/khorevaa/files/releases)
@@ -7,10 +6,20 @@
 [![Build Status](https://travis-ci.org/khorevaa/files.svg?branch=master)](https://travis-ci.org/khorevaa/files)
 [![Coverage Status](https://coveralls.io/repos/github/khorevaa/files/badge.svg?branch=master)](https://coveralls.io/github/khorevaa/files?branch=master)
 
-# Библиотека для xxx
+# Библиотека files
+
+    > Облегает чтение и запись текста в файлы, и сериализацию в/из json
 
 ## Возможности
 
+Реализован класс `Файлы`
+Методы класса:
+* `ПрочитатьФайл` - Выполняет чтение текста файла и возвращает полученную строку
+* `ЗаписатьФайл` - Выполняет запись текста в файл
+* `ОБъектВJson` - Выполняет преобразование объекта в текста json
+* `ОбъектИзJson` - Выполняет преобразование из текста json в объект
+
+Реализован модуль `РаботаСФайлами` - методы аналогичные классу `Файлы`
 
 ## Установка
 
@@ -25,12 +34,6 @@ opm install -f <ПутьКФайлу>
 
 ```
 opm install files
-```
-
-## Пример работы
-
-```
-
 ```
 
 ## Публичный интерфейс
